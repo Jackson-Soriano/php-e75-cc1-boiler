@@ -1,0 +1,89 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fantasy", "Trebuchet MS", cursive;
+}
+body {
+    background-color: #383939;
+    
+}
+
+
+#wrapper{
+    width: 970px;
+    height: 500px;
+    background-color: rgb(246, 208, 36);
+    margin: 0px auto;
+    padding: 0px;
+    color: rgb(185, 24, 24);
+    font-size: 15px;
+    text-align: center;
+}
+span, label, form{
+    display: block;
+    text-align: center;
+}
+.inline-text{
+    color: black;
+}
+.inline{
+    display: inline-block;
+    font-weight: bold;
+}
+form{
+    margin-top: 30px;
+}
+input{
+    margin-top: 10px;
+}
+#name_submit{
+    margin-top: 20px;
+    background-color: #dc3545;
+    color: #f6d024;
+    font-size: 17px;
+    width: 70px;
+    box-shadow: 5px 5px rgba(0,0,0,0.75);
+    border: 2px solid black;
+}
+#again, #reset{
+    background-color: #f6d024;
+    color: #dc3545;
+    font-size: 17px;
+    width: 100px;
+    box-shadow: 5px 5px rgba(0,0,0,0.75);
+    border: 2px solid black;
+}
+#reset{
+    background-color: red;
+    color: #f6d024;
+}
+.buttons form{
+    display: inline-block;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+.coupon{
+    background-color: #fd7e14;
+    border-style: dashed;
+    border: 2px dashed black;
+    width: 250px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+.coupon p{
+    font-weight: bold;
+    font-size: 17px;
+}
+.coupon h3{
+    font-size: 35px;
+}
+#div-coupon{
+    color:#343a40;
+}
